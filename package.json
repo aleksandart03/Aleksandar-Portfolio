@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css --watch & python3 -m http.server 3000 --bind 0.0.0.0 --directory public",
+    "build": "tailwindcss -i ./src/css/tailwind.css -o ./public/build/tailwind.css",
+    "serve": "python3 -m http.server 8000 --directory public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17"
+  }
+}
