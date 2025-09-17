@@ -2,7 +2,7 @@
 
 Student project: Professional developer portfolio built with HTML, CSS (Tailwind), and JavaScript.
 
-## 🚀 How to Run This Project (For Teachers/Reviewers)
+## 🚀 How to Run This Project (For Reviewers)
 
 ### Option 1: Simple Python Server (Recommended - No Installation Required)
 Most computers have Python pre-installed:
